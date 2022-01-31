@@ -1,0 +1,83 @@
+html, body {
+  background-color: #141414;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 90%;
+  margin: auto;
+  padding-top: 2rem; }
+
+.main_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 3rem; }
+  .main_content .intro {
+    color: #fff;
+    width: 45%; }
+    .main_content .intro .intro_word {
+      display: flex;
+      flex-direction: column; }
+      .main_content .intro .intro_word p.title {
+        margin: 0; }
+      .main_content .intro .intro_word .title {
+        font-weight: bold;
+        font-size: 36px; }
+      .main_content .intro .intro_word .my_intro {
+        line-height: 30px; }
+    .main_content .intro .buttons {
+      padding-top: 1.5rem; }
+      .main_content .intro .buttons a {
+        text-decoration: none;
+        padding: 1rem;
+        border: 1px solid #fff;
+        text-align: center;
+        border-radius: 10px;
+        color: #fff;
+        transition: .3s; }
+      .main_content .intro .buttons a:hover {
+        background-color: #fff;
+        color: black; }
+      .main_content .intro .buttons a:first-child {
+        margin-right: 1rem; }
+  .main_content .main_img {
+    width: 45%;
+    margin: auto; }
+    .main_content .main_img img {
+      max-width: 100%; }
+
+.portfolio_section {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 2rem; }
+  .portfolio_section .port_wrapper {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .portfolio_section .port_wrapper .port_box {
+      width: calc((95% / 3) - 10px);
+      padding-bottom: 2rem; }
+      .portfolio_section .port_wrapper .port_box .port_img img {
+        max-width: 100%; }
+      .portfolio_section .port_wrapper .port_box .port_desc p {
+        margin: 10px 0; }
+      .portfolio_section .port_wrapper .port_box .port_desc .link {
+        text-decoration: none;
+        color: black;
+        padding: 10px 0; }
+      .portfolio_section .port_wrapper .port_box .port_desc .comp_name {
+        font-weight: bold; }
+    .portfolio_section .port_wrapper .port_title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .portfolio_section .port_wrapper .port_title .port_img_title {
+        text-align: center; }
+        .portfolio_section .port_wrapper .port_title .port_img_title img {
+          max-width: 60%; }
+      .portfolio_section .port_wrapper .port_title .port_title_word {
+        font-weight: bold;
+        font-size: 34px; }
+
+/*# sourceMappingURL=style.css.map */

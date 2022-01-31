@@ -1,0 +1,114 @@
+html, body {
+  background-color: #141414;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 90%;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  .intro {
+    color: #fff;
+    width: 45%;
+
+    .intro_word {
+      display: flex;
+      flex-direction: column;
+      p.title {
+        margin: 0;
+      }
+      .title {
+        font-weight: bold;
+        font-size: 36px;
+      }
+      .my_intro {
+        line-height: 30px;
+      }
+    }
+    .buttons {
+      padding-top: 1.5rem;
+      a {
+        text-decoration: none;
+        padding: 1rem;
+        border: 1px solid #fff;
+        text-align: center;
+        border-radius: 10px;
+        color: #fff;
+        transition: .3s;
+      }
+      a:hover{
+        background-color: #fff;
+        color: black;
+      }
+      a:first-child {
+        margin-right: 1rem;
+      }
+    }
+  }
+  .main_img {
+    width: 45%;
+    margin: auto;
+    img {
+      max-width: 100%
+    }
+  }
+}
+
+.portfolio_section {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 2rem;
+
+  .port_wrapper {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .port_box {
+      width: calc((95% / 3) - 10px);
+      padding-bottom: 2rem;
+      .port_img {
+        img {
+          max-width: 100%;
+        }
+      }
+      .port_desc {
+        p {
+          margin: 10px 0;
+        }
+        .link {
+          text-decoration: none;
+          color: black;
+          padding: 10px 0;
+        }
+        .comp_name {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .port_title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .port_img_title {
+        text-align: center;
+        img {
+          max-width: 60%;
+        }
+      }
+      .port_title_word {
+        font-weight: bold;
+        font-size: 34px;
+      }
+    }
+
+  }
+}
