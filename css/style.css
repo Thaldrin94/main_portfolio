@@ -18,6 +18,8 @@ html, body {
     .main_content .intro .intro_word {
       display: flex;
       flex-direction: column; }
+      .main_content .intro .intro_word h1.title {
+        margin: 0; }
       .main_content .intro .intro_word p.title {
         margin: 0; }
       .main_content .intro .intro_word .title {
@@ -25,7 +27,7 @@ html, body {
         font-size: 36px; }
       .main_content .intro .intro_word .my_intro {
         line-height: 30px;
-        margin-bottom: 0; }
+        margin-bottom: 1rem; }
       .main_content .intro .intro_word .url_video {
         display: flex;
         flex-direction: row;
@@ -195,7 +197,8 @@ html, body {
       width: 90%; }
       .main_content .intro .intro_word .title {
         font-size: 26px;
-        text-align: center; }
+        text-align: center;
+        margin: 0; }
       .main_content .intro .buttons {
         padding-top: 2rem;
         display: flex;
