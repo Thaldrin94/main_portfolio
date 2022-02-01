@@ -91,30 +91,32 @@ html, body {
           opacity: 1; }
       .portfolio_section .port_wrapper .port_box .port_img img:hover {
         opacity: .7; }
-      .portfolio_section .port_wrapper .port_box .port_desc p span.html-tag {
-        background-color: #FF5722;
-        padding: .4rem;
-        color: #fff;
-        border-radius: 5px; }
-      .portfolio_section .port_wrapper .port_box .port_desc p span.css-tag {
-        background-color: #2196F3;
-        padding: .4rem;
-        color: #fff;
-        border-radius: 5px; }
-      .portfolio_section .port_wrapper .port_box .port_desc p span.sass-tag {
-        background-color: #CC6699;
-        padding: .4rem;
-        color: #fff;
-        border-radius: 5px; }
-      .portfolio_section .port_wrapper .port_box .port_desc p span.jquery-tag {
-        background-color: #156FB0;
-        padding: .4rem;
-        color: #fff;
-        border-radius: 5px; }
-      .portfolio_section .port_wrapper .port_box .port_desc p.lang {
-        padding: .5rem 0; }
-      .portfolio_section .port_wrapper .port_box .port_desc .comp_name {
-        font-weight: bold; }
+      .portfolio_section .port_wrapper .port_box .port_desc {
+        text-align: center; }
+        .portfolio_section .port_wrapper .port_box .port_desc p span.html-tag {
+          background-color: #FF5722;
+          padding: .4rem;
+          color: #fff;
+          border-radius: 5px; }
+        .portfolio_section .port_wrapper .port_box .port_desc p span.css-tag {
+          background-color: #2196F3;
+          padding: .4rem;
+          color: #fff;
+          border-radius: 5px; }
+        .portfolio_section .port_wrapper .port_box .port_desc p span.sass-tag {
+          background-color: #CC6699;
+          padding: .4rem;
+          color: #fff;
+          border-radius: 5px; }
+        .portfolio_section .port_wrapper .port_box .port_desc p span.jquery-tag {
+          background-color: #156FB0;
+          padding: .4rem;
+          color: #fff;
+          border-radius: 5px; }
+        .portfolio_section .port_wrapper .port_box .port_desc p.lang {
+          padding: .5rem 0; }
+        .portfolio_section .port_wrapper .port_box .port_desc .comp_name {
+          font-weight: bold; }
     .portfolio_section .port_wrapper .port_title {
       display: flex;
       flex-direction: column;
