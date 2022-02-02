@@ -84,7 +84,7 @@ html, body {
       width: calc((95% / 3) - 10px);
       padding-bottom: 2rem; }
       .portfolio_section .port_wrapper .port_box .port_img {
-        border: 2px solid #1C3E97;
+        border: 2px solid #141414;
         border-radius: 10px;
         padding: .5rem; }
         .portfolio_section .port_wrapper .port_box .port_img img {
